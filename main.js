@@ -32,11 +32,21 @@ function skillTreeOrder(str, arr){
 //     })
 //     return result
 // }
+
 function solution(skill, skill_trees) {
-    skillOrder(skill) // str
-    skillTreeOrder(skill, skill_trees) // arr
-    var answer = -1;
-    return answer;
+    // let cnt = 0
+    const skillTmp = skill.split('')
+    let tmp = []
+    const result = skill_trees.filter((el,idx) => {
+        for(let j = 0; j < skillTmp.lenght; j++){
+            for(let i = 1; i < skillTmp.lenght; i++){
+                return el.indexOf(skillTmp[j]) < el.indexOf(skillTmp[i])
+            }
+        }
+        
+    });
+    // const result = skill_trees.lenght - cnt
+    return result.lenght;
 }
 
 // 입력된 문자열과 배열의 원소비교
