@@ -1,10 +1,10 @@
 function solution(n)
 {
-    const tmp = n.toString()
+    const tmp = n.toString() // 숫자를 문자열로 변경
     const splitArr = tmp.split("")
     let answer = 0
     for(let i = 0;i < splitArr.length; i++){
-        answer += Number(splitArr[i])
+        answer += Number(splitArr[i]) // 문자열을 숫자로 변경
     }
         
     return answer;

@@ -2,15 +2,14 @@
 
 function solution(n) {
     var answer = n;
-    for(i = 1 ; i < n; i++){
+    for(i = 0; i < n; i++){
         if(n % i === 0){
             answer += i
-        } else if(n === 0){
-            answer = 0
-        }
+        } 
     }
     return answer;
 }
+// https://school.programmers.co.kr/learn/courses/30/lessons/12928#
 
 /* description
 문제 설명
