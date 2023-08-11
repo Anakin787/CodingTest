@@ -10,12 +10,12 @@ function solution(n) {
     return answer;
 }
 // https://school.programmers.co.kr/learn/courses/30/lessons/12928#
+// 정답률 : 87%
 
 /* description
 문제 설명
 정수 n을 입력받아 n의 약수를 모두 더한 값을 리턴하는 함수, solution을 완성해주세요.
-*/
-/*
+
 테스트 1 〉	통과 (0.04ms, 33.5MB)
 테스트 2 〉	통과 (0.11ms, 33.7MB)
 테스트 3 〉	통과 (0.14ms, 33.5MB)

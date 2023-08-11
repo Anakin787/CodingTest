@@ -10,15 +10,15 @@ function solution(n)
     return answer;
 }
 // https://school.programmers.co.kr/learn/courses/30/lessons/12931
+// 정답률 : 87%
 
 /* description
 자연수 N이 주어지면, N의 각 자릿수의 합을 구해서 return 하는 solution 함수를 만들어 주세요.
 예를들어 N = 123이면 1 + 2 + 3 = 6을 return 하면 됩니다.
 
 제한사항
-N의 범위 : 100,000,000 이하의 자연수 */
+N의 범위 : 100,000,000 이하의 자연수
 
-/* speed test
 테스트 1 〉	통과 (0.04ms, 33.5MB)
 테스트 2 〉	통과 (0.06ms, 33.5MB)
 테스트 3 〉	통과 (0.04ms, 33.5MB)
